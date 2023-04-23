@@ -1,0 +1,6707 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "KurtisHuff;CorridorsoftheArk",
+				"abbreviation": "CotA",
+				"full": "Corridors of the Ark",
+				"url": "",
+				"authors": [
+					"Kurtis Huff"
+				],
+				"convertedBy": [
+					"Kurtis Huff"
+				]
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Spore Bloom",
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "30"
+			},
+			"speed": {
+				"walk": 10
+			},
+			"str": 14,
+			"dex": 8,
+			"con": 15,
+			"int": 8,
+			"wis": 18,
+			"cha": 13,
+			"passive": 16,
+			"cr": {
+				"cr": "Apprentice tier, pair organization",
+				"xp": 100
+			},
+			"senses": [
+				"tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"save": {
+				"str": "+4",
+				"con": "+4"
+			},
+			"skill": {
+				"perception": "+6"
+			},
+			"vulnerable": [
+				"fire"
+			],
+			"resist": [
+				"acid"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the spore bloom is bloodied (15), it must succeed on a {@dc 9} Wisdom saving throw or go limp and play dead for the remainder of the combat."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spore Burst",
+					"entries": [
+						"Cooldown 3. The spore bloom launches a spore to a location within 60 ft. The spore bursts into a 15 ft. cube cloud of poisonous gas that lingers for 8 hours or until dispersed by wind-producing magic."
+					]
+				},
+				{
+					"name": "Throw Thorn",
+					"entries": [
+						"{@atk r} {@hit +4} to hit, range 60/120 ft., one target. {@h}8 piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Nature DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"Spore blooms seem to be single enormous flowers at first glance, colored bright yellow and shot through with orange. Then they heave their bulk out of the ground and start moving."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Created in a desperate attempt to stop the advance of blind hunger, the spore blooms may have killed more Bridgers than Gluttons in the end."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Hedge Sentry",
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "23"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 15,
+			"dex": 8,
+			"con": 14,
+			"int": 8,
+			"wis": 13,
+			"cha": 12,
+			"passive": 13,
+			"cr": {
+				"cr": "Apprentice tier, group organization",
+				"xp": 50
+			},
+			"senses": [
+				"tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"save": {
+				"str": "+4",
+				"con": "+4"
+			},
+			"skill": {
+				"perception": "+3"
+			},
+			"vulnerable": [
+				"fire"
+			],
+			"resist": [
+				"acid"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the hedge sentry is bloodied (11 hp), it must succeed on a {@dc 15} Wisdom saving throw or \"play dead\" for the remainder of the combat."
+					]
+				},
+				{
+					"name": "Thorns",
+					"entries": [
+						"Any creature that strikes the hedge sentry with a melee attack takes 2 points of piercing damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grab",
+					"entries": [
+						"{@atk m} {@hit +4} to hit, reach 10 ft., one target. {@h}6 damage, and the target is {@condition grappled}. If the hedge sentry already had a target {@condition grappled}, the old target is released. The target may take an action to escape the grapple with a {@dc 13} Strength saving throw."
+					]
+				},
+				{
+					"name": "Crush",
+					"entries": [
+						"Deal 8 bludgeoning damage to a {@condition grappled} target."
+					]
+				}
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"miscTags": [
+				"RCH"
+			],
+			"damageTags": [
+				"B"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Nature DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The hedge sentry is an ambulatory tangle of thorny vines."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"When the guardian spirit Teron was corrupted and turned on Skybridge, so too did the rest of the barrier forest."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Bridger Knight Spirit",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"ghost"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"spectral armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "11"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 11,
+			"int": 13,
+			"wis": 8,
+			"cha": 12,
+			"passive": 9,
+			"cr": {
+				"cr": "Apprentice tier, group organization",
+				"xp": 50
+			},
+			"save": {
+				"str": "+2",
+				"dex": "+4",
+				"con": "+2"
+			},
+			"vulnerable": [
+				"radiant",
+				{
+					"vulnerable": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"necrotic"
+			],
+			"action": [
+				{
+					"name": "Spectral Blade",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}4 slashing damage."
+					]
+				},
+				{
+					"name": "Spectral Walk",
+					"entries": [
+						"The spirit fades into insubstantiality. It provokes attacks of opportunity from creatures adjacent to it when it fades. While faded, the spirit cannot take damage from any source, and it can phase through creatures, obstacles, and difficult terrain. The spirit becomes substantial again at the start of its next turn."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"S"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"A spectral soldier going through the motions of a last, desperate battle."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"As Hadriel constructed his Wall, the remaining Bridger army took an oath to defend it even beyond death. None of them anticipated being held to the promise."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the spirit is bloodied (5), it must succeed on a {@dc 15} Wisdom saving throw or flee from battle."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bridger Mage Spirit",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"ghost"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "9"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 18,
+			"wis": 8,
+			"cha": 13,
+			"passive": 10,
+			"cr": {
+				"cr": "Apprentice tier, group organization",
+				"xp": 50
+			},
+			"save": {
+				"dex": "+4",
+				"int": "+6"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"action": [
+				{
+					"name": "Spectral Bolt",
+					"entries": [
+						"{@atk rs} {@hit +6} to hit, range 80/160 ft., one target. {@h}5 damage. The target is surrounded by a spectral mist until the beginning of the spirit's next turn, making them difficult to see. All attacks against them have disadvantage while the mist remains."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the spirit is bloodied (4), it must succeed on a {@dc 12} Wisdom saving throw or flee from combat."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"A spectral mage in Bridger colors. More likely than its fellow soldiers to understand that it is dead."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"I never thought I would see the day that I would curse my own soul to undeath. But it's worth it to stop the blind hunger. It has to be."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Gluttonous Maw",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"glutton"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "11"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 12,
+			"passive": 13,
+			"cr": {
+				"cr": "Apprentice tier, gang organization",
+				"xp": 25
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"save": {
+				"dex": "+5",
+				"wis": "+3",
+				"cha": "+3"
+			},
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"vulnerable": [
+				"psychic"
+			],
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"force"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the gluttonous maw is bloodied (5), it must succeed on a {@dc 15} Wisdom saving throw or flee the battle."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The gluttonous maw has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Devour",
+					"entries": [
+						"{@atk m} {@hit +4} to hit, reach 5 ft., one target. {@h}5 damage. The gluttonous maw regains 2 HP."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"With a short, bulbous body and spindly arms and legs, the maw would almost look cute... without the mouth that takes up most of its body. A swarm of such mouths grinning at you from the dark is even less appealing."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Three years into the long dark, maintenance workers reported grinning mouths in the shadows. If Skybridge's leaders had understood what these reports truly meant, much tragedy could have been prevented."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Gluttonous Berserker",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"glutton"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "38"
+			},
+			"speed": {
+				"walk": 15
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"passive": 13,
+			"cr": {
+				"cr": "Apprentice tier, pair organization",
+				"xp": 100
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"save": {
+				"str": "+4",
+				"con": "+4"
+			},
+			"skill": {
+				"perception": "+3"
+			},
+			"vulnerable": [
+				"psychic"
+			],
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"force"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the gluttonous berserker is bloodied (19), it must succeed on a {@dc 12} Wisdom saving throw or fly into a rage, attacking the nearest creature, friend or foe, for the rest of the combat."
+					]
+				},
+				{
+					"name": "Vengeance Seeker",
+					"entries": [
+						"When a creature damages the gluttonous berserker, the gluttonous berserker gains advantage on attacks against that creature until the end of the gluttonous berserker's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Devour",
+					"entries": [
+						"{@atk m} {@hit +4} to hit, reach 5 ft., one target. {@h}12 damage. The gluttonous berserker restores 6 HP."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk m} {@hit +4} to hit, reach 5 ft., one target. {@h}6 damage. The target falls {@condition prone}."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"The gluttonous berserker moves up to twice its speed in a straight line, shoving creatures aside 5 ft in either direction as it does. It may make a Slam attack against each creature it shoves this way.",
+						"The gluttonous berserker may not move before or after a Charge."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The berserker's body follows an ape's body plan, with relatively short legs and arms that drag on the ground. Smooth, stonelike black skin is broken only by an enormous mouth in the center of the berserker's torso."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Berserkers were the low-value shock troops of the Blind Hunger's army. They were sent to terrify lesser Bridger soldiers and prepare the way for greater Gluttons. Now that they are no longer useful to their masters, they are left to rot on the outskirts."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Neiven's Shade (Stage 1)",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"ghost"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "9"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 10,
+			"con": 13,
+			"int": 15,
+			"wis": 14,
+			"cha": 12,
+			"passive": 12,
+			"cr": {
+				"cr": "Apprentice tier, group organization",
+				"xp": 50
+			},
+			"save": {
+				"con": "+3",
+				"int": "+4",
+				"wis": "+4"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Neiven's shade and all creatures under its command never make morale checks while it is alive. When Neiven's shade dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Transformation",
+					"entries": [
+						"When Neiven's shade reaches 0 hp, instead of dying, it transforms into Neiven's Shade (phase 2). In so doing, it gains all of the statistics of the second phase, including its full hp total, and recovers from any status affects afflicting it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Neiven's shade makes two force bolt attacks."
+					]
+				},
+				{
+					"name": "Force Bolt",
+					"entries": [
+						"{@atk rs} {@hit +4} to hit, range 80/320 ft., one target. {@h}4 force damage."
+					]
+				},
+				{
+					"name": "Arcane Mark",
+					"entries": [
+						"Cooldown 3. Neiven's shade can mark a creature within 30 ft. with a shining rune. While the creature is marked like this, Neiven's shade knows its exact location and has advantage on attacks against it. The creature or one of its allies may remove the mark with an action by disrupting it."
+					]
+				},
+				{
+					"name": "Pillar of Force",
+					"entries": [
+						"Cooldown 3. Neiven's shade calls down a pillar on one target currently marked by Arcane Mark. The pillar deals 8 force damage unavoidably."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"O"
+			],
+			"reaction": [
+				{
+					"name": "Defensive Teleport",
+					"entries": [
+						"As a reaction when targeted with an attack, Neiven's shade may teleport up to 15 ft. in any direction, imposing disadvantage on the attack in the process."
+					]
+				}
+			]
+		},
+		{
+			"name": "Neiven's Shade (Stage 2)",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"ghost"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "9"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 10,
+			"con": 13,
+			"int": 15,
+			"wis": 14,
+			"cha": 12,
+			"passive": 12,
+			"cr": {
+				"cr": "Apprentice tier, group organization",
+				"xp": 50
+			},
+			"save": {
+				"con": "+3",
+				"int": "+4",
+				"wis": "+4"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Neiven's shade and all creatures under its command never make morale checks while it is alive. When Neiven's shade dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"Neiven's shade rolls initiative again and gains a second turn in the initiative order, where it has all its possible actions. Its reaction refreshes at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Fade Step",
+					"entries": [
+						"Whenever Neiven's shade moves, it disappears in one place and appears in another instantaneously, avoiding all opportunity attacks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Neiven's shade makes two force bolt attacks."
+					]
+				},
+				{
+					"name": "Force Bolt",
+					"entries": [
+						"{@atk rs} {@hit +4} to hit, range 80/320 ft., one target. {@h}4 force damage."
+					]
+				},
+				{
+					"name": "Arcane Mark",
+					"entries": [
+						"Cooldown 3. Neiven's shade can mark a creature within 30 ft. with a shining rune. While the creature is marked like this, Neiven's shade knows its exact location and has advantage on attacks against it. The creature or one of its allies may remove the mark with an action by disrupting it."
+					]
+				},
+				{
+					"name": "Pillar of Force",
+					"entries": [
+						"Cooldown 3. Neiven's shade calls down a pillar on one target currently marked by Arcane Mark. The pillar deals 8 force damage unavoidably."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"O"
+			],
+			"reaction": [
+				{
+					"name": "Defensive Teleport",
+					"entries": [
+						"As a reaction when targeted with an attack, Neiven's shade may teleport up to 15 ft. in any direction, imposing disadvantage on the attack in the process."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"Neiven was clearly once the very image of an archmage. Noble features, intense bearing, and impeccable presentation. The lesser mages that followed him clearly imitated his style. Now, his eyes are clouded, and he howls with madness after a century of undeath."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Do you remember when we were both apprentices, Elle? High off our accomplishment of sealing the Change Engine. It felt like magic could do anything. Maybe that promise will be fulfilled in Avandra's halls. I'll be waiting there for you, Elle."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Poisonous Hunger (Phase 1)",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"glutton"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 13,
+			"int": 10,
+			"wis": 14,
+			"cha": 8,
+			"passive": 14,
+			"cr": {
+				"cr": "Apprentice tier, pair organization",
+				"xp": 100
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"save": {
+				"str": "+4",
+				"dex": "+5",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"vulnerable": [
+				"psychic"
+			],
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"force"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The poisonous hunger and all creatures under its command never make morale checks while it is alive. When the poisonous hunger dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Transformation",
+					"entries": [
+						"When the poisonous hunger reaches 0 hp, instead of dying, it transforms into the poisonous hunger (phase 2). In so doing, it gains all of the statistics of the second phase, including its full hp total, and recovers from any status affects afflicting it."
+					]
+				},
+				{
+					"name": "Poison Stride",
+					"entries": [
+						"While the poisonous hunger is within a poisonous cloud, the poison eddies around it in confusing patterns, giving attackers disadvantage."
+					]
+				},
+				{
+					"name": "Poisoned Fangs",
+					"entries": [
+						"If the poisonous hunger starts its turn in a poison cloud, its attacks deal an additional 4 poison damage."
+					]
+				}
+			],
+			"damageTags": [
+				"I"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The poisonous hunger makes one slam attack and one devour attack."
+					]
+				},
+				{
+					"name": "Devour",
+					"entries": [
+						"{@atk m} {@hit +4} to hit, reach 5 ft., one target. {@h}6 damage. The poisonous hunger restores 3 hp."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk m} {@hit +4} to hit, reach 5 ft., one target. {@h}10 damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"reaction": [
+				{
+					"name": "Poison Puff",
+					"entries": [
+						"When damaged, the poisonous hunger may use a reaction to emit a 10 ft square of poison gas. The poisonous hunger must be within one of the squares."
+					]
+				}
+			]
+		},
+		{
+			"name": "Poisonous Hunger (Phase 2)",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"glutton"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 13,
+			"int": 10,
+			"wis": 14,
+			"cha": 8,
+			"passive": 14,
+			"cr": {
+				"cr": "Apprentice tier, pair organization",
+				"xp": 100
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"save": {
+				"str": "+4",
+				"dex": "+5",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"vulnerable": [
+				"psychic"
+			],
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"force"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The poisonous hunger and all creatures under its command never make morale checks while it is alive. When the poisonous hunger dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"The poisonous hunger rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Poison Stride",
+					"entries": [
+						"While the poisonous hunger is within a poisonous cloud, the poison eddies around it in confusing patterns, giving attackers disadvantage."
+					]
+				},
+				{
+					"name": "Poisoned Fangs",
+					"entries": [
+						"If the poisonous hunger starts its turn in a poison cloud, its attacks deal an additional 4 poison damage."
+					]
+				}
+			],
+			"damageTags": [
+				"I"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The poisonous hunger makes two claw attacks and one devour attack."
+					]
+				},
+				{
+					"name": "Devour",
+					"entries": [
+						"{@atk m} {@hit +4} to hit, reach 5 ft., one target. {@h}6 damage. The poisonous hunger restores 3 hp."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk m} {@hit +4} to hit, reach 5 ft., one target. {@h}5 damage."
+					]
+				},
+				{
+					"name": "Scatter Affliction",
+					"entries": [
+						"Cooldown 3. The poisonous hunger may move up to 60 ft. in a straight line, moving through creatures' spaces as it does, and leaving behind a line of poisonous gas. The poisonous hunger may not move before or after scattering affliction."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"reaction": [
+				{
+					"name": "Poison Puff",
+					"entries": [
+						"When damaged, the poisonous hunger may use a reaction to emit a 10 ft square of poison gas. The poisonous hunger must be within one of the squares."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The most humanoid of all the gluttons seen so far, this one still shares their characteristic obsidian skin and eyeless, toothy grin. This one is stretched out, tall and painfully thin, with long fingers that can gouge or slam. An odd jewel glints on its chest."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Gluttons that grow old without being eaten by their betters mutate in strange ways, growing larger, more cunning, and often acquiring strange abilities. This one has consumed so many poisonous plants in the barrier forest that it has become a creature of toxin itself."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Grave Guardian",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"poltergeist"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"earthen armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "38, 38, 38"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 18,
+			"int": 12,
+			"wis": 18,
+			"cha": 10,
+			"passive": 14,
+			"cr": {
+				"cr": "Apprentice tier, pair organization",
+				"xp": 300
+			},
+			"save": {
+				"str": "+2",
+				"dex": "+1",
+				"con": "+6",
+				"wis": "+6"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The grave guardian and all creatures under its command never make morale checks while it is alive. When the grave guardian dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Resilliency",
+					"entries": [
+						"The grave guardian has three health totals, which deplete one at a time. When one health total is depleted, the grave guardian gains a second wind, recovering from any status effect affecting it. When all health totals are depleted, the grave guardian dies."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"The grave guardian rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Embed",
+					"entries": [
+						"The grave guardian starts the fight embedded in the ground, granting it +1 AC (total 16), but setting its speed to 0 ft. When the grave guardian's first health pool is depleted, it pulls itself out of the ground, ending both the increased AC and decreased speed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Restless Spirit",
+					"entries": [
+						"{@atk rs} {@hit +2} to hit, range 80/320 ft., one target. {@h}4 necrotic damage. The target is {@condition charmed} for 1 round."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk m} {@hit +2} to hit, reach 5 ft., one target. {@h}6 bludgeoning damage. The target is pushed 10 ft. and falls {@condition prone}."
+					]
+				}
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"reaction": [
+				{
+					"name": "Restless Defense",
+					"entries": [
+						"As a reaction when damaged, make a restless spirit attack against the source of the damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"At first, this creature resembles simply an earthen mound filled with long-bleached skeletons, but it quickly becomes obvious it is anything but as it pulls itself into a vaguely humanoid shape. In the approximate location of a head, a single flame burns with rage."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"No... no. Not like this. We've already made it this far. Where's the escort, there was supposed to be an escort! Get your hands off him you monsters! ... there was supposed to be an escort ... {@bold you'll all regret this}"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Wymare, Spectral Captain (Part 1)",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"ghost"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"spectral armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "11"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 14,
+			"int": 12,
+			"wis": 13,
+			"cha": 15,
+			"passive": 11,
+			"cr": {
+				"cr": "Apprentice tier, group organization",
+				"xp": 50
+			},
+			"save": {
+				"cha": "+4",
+				"wis": "+3",
+				"con": "+4"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Wymare and all creatures under its command never make morale checks while it is alive. When Wymare dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Transformation",
+					"entries": [
+						"When Wymare reaches 0 hp, instead of dying, it transforms into Wymare, Spectral Captain (Part 2). In so doing, it gains all of the statistics of the second phase, including its full hp total, and recovers from any status affects afflicting it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Seeking Bow",
+					"entries": [
+						"{@atk rw} {@hit +4} to hit, range 80/160 ft., one target. {@h}3 damage, and the target is marked out in silver light until the beginning of Wymare's next turn. This light temporarily suppresses any effect imposing disadvantage on attacks against the target and grants Wymare's allies advantage to hit the target."
+					]
+				}
+			],
+			"miscTags": [
+				"RW"
+			],
+			"bonus": [
+				{
+					"name": "Lay on Hands",
+					"entries": [
+						"Wymare may touch an adjacent ally or himself to heal 3 damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Loyal Guards",
+					"entries": [
+						"As a reaction when Wymare would be the target of an attack, he may force the attack to target an adjacent ally instead."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wymare, Spectral Captain (Part 2)",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"ghost"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"spectral armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "11"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 14,
+			"int": 12,
+			"wis": 13,
+			"cha": 15,
+			"passive": 11,
+			"cr": {
+				"cr": "Apprentice tier, group organization",
+				"xp": 50
+			},
+			"save": {
+				"cha": "+4",
+				"wis": "+3",
+				"con": "+4"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Wymare and all creatures under its command never make morale checks while it is alive. When Wymare dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"Wymare rolls initiative again and gains a second turn in the initiative order, where it has all its possible actions. Its reaction refreshes at the beginning of each turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Seeking Blade",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}3 damage, and the target is marked out in silver light until the beginning of Wymare's next turn. This light temporarily suppresses any effect imposing disadvantage on attacks against the target and grants Wymare's allies advantage to hit the target."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"bonus": [
+				{
+					"name": "Lay on Hands",
+					"entries": [
+						"Wymare may touch an adjacent ally or himself to heal 3 damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Ultimate Loyalty",
+					"entries": [
+						"As a reaction when Wymare would be the target of an attack, he may teleport an ally within 30 ft. to a space adjacent to him and force the attack to target the teleported ally instead."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The eyes of this former commander still barely cling to sanity, but they seem to see little of what is in front of them. His shield and breastplate bear the sigil of a flame, and remnants of a forgotten holy power still flicker around his fingers."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Every second counts to get the remaining civilians relocated behind Hadriel's wall. If we are to die here, we will make them pay for every inch with blood. May our corpses rise up to continue the fight, should it be necessary."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Bloated Glutton (Phase 1)",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"glutton"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "45"
+			},
+			"speed": {},
+			"str": 12,
+			"dex": 8,
+			"con": 15,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"passive": 11,
+			"cr": {
+				"cr": "Apprentice tier, pair organization",
+				"xp": 100
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"save": {
+				"con": "+4",
+				"cha": "+4"
+			},
+			"vulnerable": [
+				"psychic"
+			],
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"force"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The bloated glutton and all creatures under its command never make morale checks while it is alive. When the bloated glutton dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Transformation",
+					"entries": [
+						"When the bloated glutton reaches 0 hp, instead of dying, it transforms into Bloated Glutton (Phase 2). In so doing, it gains all of the statistics of the second phase, including its full hp total, and recovers from any status affects afflicting it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Vortex",
+					"entries": [
+						"The bloated glutton spits a bead of twisted space up to 60 ft away, which explodes into a 15 ft cube of spatial distortion. Each creature in the area must make a {@dc 15} Constitution saving throw, taking 4 force damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Tongue Lash",
+					"entries": [
+						"{@atk m} {@hit +6} to hit, reach 15 ft., one target. {@h}The target is {@condition grappled} (escape {@dc 15}) and pulled 5 ft. towards the bloated glutton. Until the grapple ends, the bloated glutton cannot use tongue lash on another target."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"miscTags": [
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"bonus": [
+				{
+					"name": "Devour",
+					"entries": [
+						"If the bloated glutton has a target {@condition grappled} with its Tongue Lash, it may pull that target 5 ft. closer to itself and deal 4 bludgeoning damage to it. The bloated glutton restores 2 hp."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloated Glutton (Phase 2)",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"glutton"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "45"
+			},
+			"speed": {},
+			"str": 12,
+			"dex": 8,
+			"con": 15,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"passive": 11,
+			"cr": {
+				"cr": "Apprentice tier, pair organization",
+				"xp": 100
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"save": {
+				"con": "+4",
+				"cha": "+4"
+			},
+			"vulnerable": [
+				"psychic"
+			],
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"force"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The bloated glutton and all creatures under its command never make morale checks while it is alive. When the bloated glutton dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"The bloated glutton rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Vortex",
+					"entries": [
+						"The bloated glutton spits a bead of twisted space up to 60 ft away, which explodes into a 15 ft cube of spatial distortion. Each creature that enters the area or starts its turn in it must make a {@dc 15} Constitution saving throw, taking 4 force damage on a failed save, or 2 force damage on a successful one.",
+						"The vortex stays in place until the bloated glutton dismisses it, or until it tries to create more than 3 vortices. When the bloated glutton spits a new vortex when there are already 3 present, the oldest vortex fades away to make room for the new one."
+					]
+				},
+				{
+					"name": "Vacuum",
+					"entries": [
+						"The bloated glutton breathes in, creating an enormous vacuum. All creatures within 30 ft. of the bloated glutton must make a {@dc 15} Strength saving throw or be pulled 10 ft. towards the bloated glutton."
+					]
+				},
+				{
+					"name": "Tongue Lash",
+					"entries": [
+						"{@atk m} {@hit +6} to hit, reach 15 ft., one target. {@h}The target is {@condition grappled} (escape {@dc 15}) and pulled 5 ft. towards the bloated glutton. Until the grapple ends, the bloated glutton cannot use tongue lash on another target."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"miscTags": [
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"bonus": [
+				{
+					"name": "Devour",
+					"entries": [
+						"If the bloated glutton has a target {@condition grappled} with its Tongue Lash, it may pull that target 5 ft. closer to itself and deal 4 bludgeoning damage to it. The bloated glutton restores 2 hp."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The mound of jet-black flesh in the center of the room quivers as you enter, spitting apart to reveal a toothy maw large enough to swallow you whole. A glistening red tongue quests out from between the fangs, seemingly tasting the air for you."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"When gluttons become so large that they cannot defend themselves, they are usually eaten by their fellows. Some rare few are lucky enough to surround themselves with minor gluttons that dare not challenge them."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Corrupted Teron (Phase 1)",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "plant",
+				"tags": [
+					"possessed"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "68"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 15,
+			"int": 14,
+			"wis": 8,
+			"cha": 12,
+			"passive": 9,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"senses": [
+				"tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"save": {
+				"con": "+4",
+				"str": "+5"
+			},
+			"vulnerable": [
+				"fire"
+			],
+			"resist": [
+				"acid"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Teron and all creatures under its command never make morale checks while it is alive. When Teron dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Transformation",
+					"entries": [
+						"When Teron reaches 0 hp, instead of dying, it transforms into Corrupted Teron (Phase 2). In so doing, it gains all of the statistics of the second phase, including its full hp total, and recovers from any status affects afflicting it."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"Teron rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Poison Stride",
+					"entries": [
+						"While Teron is within a poisonous cloud, the poison eddies around it in confusing patterns, giving attackers disadvantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Breath Weapon",
+					"entries": [
+						"Cooldown 3. Teron spits a cloud of poison, creating a 15 ft. cube of poisonous gas within 60 ft.. The cloud is dispersed by wind-producing magic, but otherwise remains for 8 hours."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Teron makes three attacks: one bite and two snatches."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk m} {@hit 5} to hit, reach 10 ft., one target. {@h}8 piercing damage."
+					]
+				},
+				{
+					"name": "Snatch",
+					"entries": [
+						"{@atk m} {@hit 5} to hit, reach 10 ft., one target. {@h}5 bludgeoning damage, and the target is dragged adjacent to Teron and {@condition grappled} (escape {@dc 14})."
+					]
+				}
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone"
+			],
+			"bonus": [
+				{
+					"name": "Toss",
+					"entries": [
+						"{@atk r} {@hit 5} to hit, range 30/60 ft., one target. Requires {@condition grappled} creature, which is thrown to a space adjacent to the target. {@h}Both creatures take 2 bludgeoning damage and fall {@condition prone}. {@m}Only the thrown creature takes the damage and falls {@condition prone}.",
+						"Teron can direct this attack at an empty space instead of a creature, in which case the {@condition grappled} creature is thrown to that space, takes the damage, and falls {@condition prone}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Corrupted Teron (Phase 2)",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "plant",
+				"tags": [
+					"possessed"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "34"
+			},
+			"speed": {
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 15,
+			"int": 14,
+			"wis": 8,
+			"cha": 12,
+			"passive": 9,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"save": {
+				"con": "+4",
+				"str": "+5"
+			},
+			"vulnerable": [
+				"fire"
+			],
+			"resist": [
+				"acid"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Teron and all creatures under its command never make morale checks while it is alive. When Teron dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Transformation",
+					"entries": [
+						"When Teron reaches 0 hp, instead of dying, it transforms into Corrupted Teron (Phase 3). In so doing, it gains all of the statistics of the second phase, including its full hp total, and recovers from any status affects afflicting it."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"Teron rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Breath Weapon",
+					"entries": [
+						"Cooldown 3. Teron spits a cloud of poison, creating a 15 ft. cube of poisonous gas within 60 ft.. The cloud is dispersed by wind-producing magic, but otherwise remains for 8 hours."
+					]
+				},
+				{
+					"name": "Snatch",
+					"entries": [
+						"{@atk m} {@hit 5} to hit, reach 10 ft., one target. {@h}10 bludgeoning damage, and the target is dragged adjacent to Teron and {@condition grappled} (escape {@dc 14})."
+					]
+				}
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone"
+			],
+			"bonus": [
+				{
+					"name": "Toss",
+					"entries": [
+						"{@atk r} {@hit 5} to hit, range 30/60 ft., one target. Requires {@condition grappled} creature, which is thrown to a space adjacent to the target. {@h}Both creatures take 6 bludgeoning damage and fall {@condition prone}. {@m}Only the thrown creature takes the damage and falls {@condition prone}.",
+						"Teron can direct this attack at an empty space instead of a creature, in which case the {@condition grappled} creature is thrown to that space, takes the damage, and falls {@condition prone}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Corrupted Teron (Phase 3)",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"ghost"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "30"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 15,
+			"int": 14,
+			"wis": 8,
+			"cha": 12,
+			"passive": 9,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"save": {
+				"con": "+4",
+				"str": "+5"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Teron and all creatures under its command never make morale checks while it is alive. When Teron dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"Teron rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"R",
+				"S"
+			],
+			"action": [
+				{
+					"name": "Phase",
+					"entries": [
+						"Teron goes briefly out-of-phase with reality. Until the end of Teron's turn, he gains a 40 ft. fly speed and he can pass through obstacles and creatures. He does not provoke attacks of opportunity while phased. All creatures passed through this way must make a {@dc 14} Wisdom saving throw, taking 7 radiant damage on a failed save, or 3 radiant damage on a successful one."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Teron makes three attacks: one bite and two claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk m} {@hit 5} to hit, reach 10 ft., one target. {@h}8 piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk m} {@hit 5} to hit, reach 5 ft., one target. {@h}4 slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"RCH"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 14"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (plant form)",
+										"entries": [
+											"The mass of vines blocking the way further into Skybridge  pulls itself up, painfully and slowly, until it has assumed the rough guise of a gold dragon. Its form droops as though it can barely hold itself together, but it bares its teeth at you in challenge anyway."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (spirit form)",
+										"entries": [
+											"The hope of victory is dashed as a thin, ghostly form tears itself out of the charred plant matter. A pulsing black core of corruption is now visible at the heart of the dragon's ghost. Still, it pushes through its pain and roars its defiance at you."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Teron was the city's hero once. He fought off army-killing astral dreadnoughts. He willingly entered hibernation so that others could eat during Folmer's famine. A pity that he might have ended more lives than he ever saved, after being corrupted by Hunger."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Elder Berserker",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"glutton"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "60"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 15,
+			"int": 10,
+			"wis": 13,
+			"cha": 8,
+			"passive": 13,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"save": {
+				"str": "+5",
+				"con": "+4"
+			},
+			"skill": {
+				"perception": "+3"
+			},
+			"vulnerable": [
+				"psychic"
+			],
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"force"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the elder berserker is bloodied (30), it must succeed on a {@dc 13} Wisdom saving throw or fly into a rage, attacking the nearest creature, friend or foe, for the rest of the combat."
+					]
+				},
+				{
+					"name": "Vengeance Seeker",
+					"entries": [
+						"When a creature damages the elder berserker, the elder berserker gains advantage on attacks against that creature until the end of the elder berserker's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Devour",
+					"entries": [
+						"{@atk m} {@hit +5} to hit, reach 5 ft., one target. {@h}28 piercing damage and the target is {@condition grappled} (escape {@dc 14}). The elder berserker may grapple only one target in this way. If it devours another target, it frees the first."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk m} {@hit +5} to hit, reach 5 ft., one target. {@h}14 bludgeoning damage. The target falls {@condition prone}."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"The elder berserker moves up to twice its speed in a straight line, shoving creatures aside 5 ft in either direction as it does. It may make a Slam attack against each creature it shoves this way.",
+						"The elder berserker may not move before or after a Charge."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The elder berserker looks much like its smaller cousins, but for small bone spurs emerging from its skin around the joints. It is obviously capable of incredible strength, but moves stiffly."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Where berserkers were sent to break the dregs of the Bridger army, their elders were sent to do the same for the Bridger adventurers. Now they guard locations that are important to the Hunger."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"conditionInflict": [
+				"grappled"
+			],
+			"bonus": [
+				{
+					"name": "Chew",
+					"entries": [
+						"Requires a {@condition grappled} target. The target takes 8 piercing damage, and the elder berserker heals 4 hp."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"P"
+			]
+		},
+		{
+			"name": "Gluttonous Warper",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"glutton"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 8,
+			"int": 16,
+			"wis": 14,
+			"cha": 13,
+			"passive": 14,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"save": {
+				"dex": "+4",
+				"int": "+5"
+			},
+			"skill": {
+				"stealth": "+4",
+				"perception": "+4"
+			},
+			"vulnerable": [
+				"psychic"
+			],
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"force"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the gluttonous warper is bloodied (16), it must succeed on a {@dc 13} Wisdom saving throw or flee the combat."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Devour",
+					"entries": [
+						"{@atk m} {@hit 7} to hit, reach 5 ft., one target. {@h}10 piercing damage. The gluttonous warper restores 5 hp."
+					]
+				},
+				{
+					"name": "Fold Space",
+					"entries": [
+						"The gluttonous warper folds space around itself to protect itself from harm. To others, it appears as a warped silhouette. While folded in this way, it cannot be targeted with attacks and it gains advantage on dexterity saving throws, but it cannot take any actions except movement and unfolding space."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Unfold Space",
+					"entries": [
+						"The gluttonous warper returns to contiguous space, causing a spatial shockwave in adjacent squares as it does. Each creature in this area must make a {@dc 16} Constitution saving throw, taking 8 force damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"This creature actually has a head, but it still lacks any features other than a grinning, fanged mouth. It wears a cloak made of bone and tendon. The bone shards gently knock against one another as the creature sways, a disturbingly gentle sound."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"The first Glutton to be seen by a Bridger was a warper. Lord Qhen summoned it as his last act before his flayer host was forced off of Skybridge. Those present said it simply stood in one place for a time, smiling, before disappearing in a pop of tortured space."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Crusher Vine",
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "90"
+			},
+			"speed": {
+				"walk": 0
+			},
+			"str": 17,
+			"dex": 8,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 15,
+			"passive": 12,
+			"cr": {
+				"cr": "Adventurer tier, pair organization",
+				"xp": 1500
+			},
+			"senses": [
+				"tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"save": {
+				"dex": "+2",
+				"con": "+6",
+				"wis": "+5",
+				"str": "+6"
+			},
+			"skill": {
+				"deception": "+5"
+			},
+			"vulnerable": [
+				"fire"
+			],
+			"resist": [
+				"acid"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the crusher vine is bloodied (45), it must succeed on a {@dc 11} Wisdom saving throw or go limp and play dead for the remainder of the combat."
+					]
+				},
+				{
+					"name": "Camouflage",
+					"entries": [
+						"By remaining very still, the crusher vine may deceive enemies into believing it is a non-animate plant. It takes a {@dc 15} perception check to notice that a crusher vine is animate when it is holding still this way."
+					]
+				},
+				{
+					"name": "Pod",
+					"entries": [
+						"The crusher vine has a pod large enough to hold one medium size creature. While inside the pod, a creature cannot see any creature besides the crusher vine. If a creature escapes from the crusher vine's entangle while within the pod, it is still considered {@condition grappled} (but not {@condition restrained}), until it has also escaped the pod ({@dc 13} Strength check). The crusher vine has advantage on attack rolls to entangle a creature inside its pod."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Entangle",
+					"entries": [
+						"{@atk m} {@hit 4} to hit, reach 10 ft., one target. {@h}22 bludgeoning damage, and the target is {@condition grappled} (escape {@dc 13}). While {@condition grappled}, the target is also {@condition restrained}. Only one target can be {@condition grappled} in this way. If the crusher vine would like to entangle another target, it must release the first."
+					]
+				},
+				{
+					"name": "Poison Dart",
+					"entries": [
+						"{@atk r} {@hit 4} to hit, range 80/160 ft., one target. {@h}16 piercing damage, and the target must make a {@dc 13} Constitution saving throw. On a failure, the target is {@condition poisoned}, and must use 10 ft. of their movement to stumble in a random direction at the beginning of each of their turns. The target may repeat the save at the end of each of their turns, ending the effect on themself on a success."
+					]
+				}
+			],
+			"conditionInflict": [
+				"grappled",
+				"poisoned",
+				"restrained"
+			],
+			"miscTags": [
+				"RCH"
+			],
+			"bonus": [
+				{
+					"name": "Crush",
+					"entries": [
+						"Requires a target {@condition grappled} by entangle. If the target is not within the crusher vine's pod, the vine pulls the target into the pod. The target takes 12 bludgeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Nature DC 16"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"What seemed to be a single enormous seedpod spits open as you approach, flailing tentacles lolling out of the gaping pod like tongues. The inside of the pod is lined with wicked-looking spikes that glisten with a clear liquid."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"The magical laboratories once took safety and proper materials storage very seriously. These days, with the old workstations inhabited by creatures of Chaos, standards are significantly more lax. Just look at this charming creature for evidence."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Soul of Chandra (Phase 1)",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"ghost"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"spectral armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "79"
+			},
+			"speed": {
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 18,
+			"int": 10,
+			"wis": 15,
+			"cha": 17,
+			"passive": 12,
+			"cr": {
+				"cr": "Veteran tier, pair organization",
+				"xp": 2400
+			},
+			"save": {
+				"wis": "+6",
+				"con": "+8",
+				"dex": "+5",
+				"cha": "+7"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Chandra and all creatures under its command never make morale checks while it is alive. When Chandra dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Transformation",
+					"entries": [
+						"When Chandra reaches 0 hp, instead of dying, it transforms into Soul of Chandra (Phase 2). In so doing, it gains all of the statistics of the second phase, including its full hp total, and recovers from any status affects afflicting it."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"Chandra rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Spectral Charge",
+					"entries": [
+						"If Chandra moves at least 20 ft. in a straight line and then makes a shield bash attack, she may pass through creatures or objects in her path and does not provoke opportunity attacks during the movement. If the shield bash attack hits, the target must succeed on a {@dc 16} Strength saving throw or fall {@condition prone}. If the target falls {@condition prone}, Chandra may make a stab attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk m} {@hit 7} to hit, reach 5 ft., one target. {@h}20 bludgeoning damage."
+					]
+				},
+				{
+					"name": "Stab",
+					"entries": [
+						"{@atk m} {@hit 7} to hit, reach 5 ft., one target. This attack automatically hits {@condition prone} targets. {@h}16 piercing damage."
+					]
+				},
+				{
+					"name": "Fireblast",
+					"entries": [
+						"Chandra bashes her blade against her shield, producing a blast of fire that pushes all creatures within 10 ft. of Chandra back 5 ft.. All creatures pushed this way must make a {@dc 16} Dexterity saving throw, taking 12 fire damage and falling {@condition prone} on a failure, or 6 fire damage on a success."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P"
+			]
+		},
+		{
+			"name": "Soul of Chandra (Phase 2)",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"ghost"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"spectral armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "79, 79"
+			},
+			"speed": {
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 18,
+			"int": 10,
+			"wis": 15,
+			"cha": 17,
+			"passive": 12,
+			"cr": {
+				"cr": "Veteran tier, pair organization",
+				"xp": 2400
+			},
+			"save": {
+				"wis": "+6",
+				"con": "+8",
+				"dex": "+5",
+				"cha": "+7"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Chandra and all creatures under its command never make morale checks while it is alive. When Chandra dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"Chandra rolls initiative again and gains a second turn in the initiative order, where it has all its possible actions. Its reaction refreshes at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Blazing Charge",
+					"entries": [
+						"If Chandra moves at least 20 ft. in a straight line and then lets out a fireblast, she may pass through creatures or objects in her path and does not provoke opportunity attacks during the movement. If there are any {@condition prone} targets after the fireblast within 10 ft., Chandra may make a flame lash attack against one of them as a bonus action."
+					]
+				},
+				{
+					"name": "Torchbearer's Armor",
+					"entries": [
+						"If Chandra is damaged by a melee attack, the attacker takes 12 fire damage."
+					]
+				},
+				{
+					"name": "Paragon Resilliency",
+					"entries": [
+						"Chandra has two health totals, which deplete one at a time. When one health total is depleted, Chandra gains a second wind, recovering from any status effect affecting it. When all health totals are depleted, Chandra dies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Flame Lash",
+					"entries": [
+						"{@atk m} {@hit 7} to hit, reach 10 ft., one target. This attack automatically hits {@condition prone} targets. {@h}18 fire damage."
+					]
+				},
+				{
+					"name": "Fireblast",
+					"entries": [
+						"Chandra bashes her blade against her shield, producing a blast of fire that pushes all creatures within 10 ft. of Chandra back 5 ft.. All creatures pushed this way must make a {@dc 16} Dexterity saving throw, taking 12 fire damage and falling {@condition prone} on a failure, or 6 fire damage on a success."
+					]
+				},
+				{
+					"name": "Fiery Path",
+					"entries": [
+						"After activating fiery path and until the end of her turn, Chandra leaves a 5 ft. wide wall of fire behind her as she moves. The wall starts at ground level beneath Chandra and extends 10 ft. into the air. The wall gutters out after 1 round.",
+						"Any creature that enters the wall or starts its turn there must make a {@dc 16} Saving throw, taking 12 fire damage on a failure."
+					]
+				}
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"RCH"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 17"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (first form)",
+										"entries": [
+											"The ghost of the warrior before you glows with a warm red light, unlike the other ghosts that you've seen whose light was pale. She holds her sword and shield in front of her in a formal posture, emphasizing her heraldry: a blazing torch."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (second form)",
+										"entries": [
+											"The ghostly knight steps back to reevaluate her tactics. She discards her sword and shield to gather fire magic in both palms. The flame grows brighter, seemingly consuming her, but instead it simply seems to dance on her armor. She extends a long whip of flame from one hand, and settles into a combat stance again."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"The Order of Torchbearers were charged with keeping away the dangers of the Shadow Era. They failed, and to atone, the last member of their order set fire to her own flesh for the merest chance of holding back Hunger. Though she gave her life, she also gave the Void Whisperer its only wound."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Chaos Slaad Smasher",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "36"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 15,
+			"int": 13,
+			"wis": 14,
+			"cha": 9,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"save": {
+				"con": "+4",
+				"str": "+5"
+			},
+			"vulnerable": [
+				"force"
+			],
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the chaos slaad smasher is bloodied (18), it must succeed on a {@dc 13} Wisdom saving throw or flee the combat."
+					]
+				},
+				{
+					"name": "Chaotic Nature",
+					"entries": [
+						"The chaos slaad's form is unstable, constantly shifting and bubbling. At the start of the chaos slaad's turn, roll a {@dice 1d3}. Depending on the result of the roll, the chaos slaad might change stat blocks. If it changes stat blocks, it retains its current hit point total and all conditions currently affecting it, but otherwise replaces all of its statistics with those of the new stat block. The possible stat blocks are:",
+						"1. Chaos Slaad Smasher",
+						"2. Chaos Slaad Hurler",
+						"3. Chaos Slaad Barrier"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The chaos slaad regains 3 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"action": [
+				{
+					"name": "Club Arm",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}10 bludgeoning damage and 5 acid damage. The target must make a {@dc 14} Strength saving throw or fall {@condition prone}."
+					]
+				}
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The creature would look almost like a toad if you twisted it to allow it walk on two legs. Its skin is gray and pockmarked, and its entire body shifts and bubbles in a nauseating way. This form is awkwardly top-heavy, with a huge club arm."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"The Slaad were seen as little more than pests during the years of the Long Dark before Skybridge's final fall. That may have been true once, but they have had years to fester inside Skybridge's corpse, and they're rather more than that now."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Chaos Slaad Hurler",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 16,
+			"con": 13,
+			"int": 14,
+			"wis": 15,
+			"cha": 11,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"save": {
+				"dex": "+5",
+				"int": "+4"
+			},
+			"vulnerable": [
+				"force"
+			],
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"trait": [
+				{
+					"name": "Chaotic Nature",
+					"entries": [
+						"The chaos slaad's form is unstable, constantly shifting and bubbling. At the start of the chaos slaad's turn, roll a {@dice 1d3}. Depending on the result of the roll, the chaos slaad might change stat blocks. If it changes stat blocks, it retains its current hit point total and all conditions currently affecting it, but otherwise replaces all of its statistics with those of the new stat block. The possible stat blocks are:",
+						"1. Chaos Slaad Smasher",
+						"2. Chaos Slaad Hurler",
+						"3. Chaos Slaad Barrier"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The chaos slaad regains 3 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Morale",
+					"entries": [
+						"When the chaos slaad hurler is bloodied (18), it must succeed on a {@dc 13} Wisdom saving throw or flee the combat."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"action": [
+				{
+					"name": "Acid Glob",
+					"entries": [
+						"The chaos slaad hurler throws a glob of acid to a location within 60 ft. The glob bursts into a 15 ft. cube of acid. Each creature in the cube must make a {@dc 14} Dexterity saving throw, taking 7 acid damage on a failed save."
+					]
+				}
+			],
+			"damageTags": [
+				"A"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The creature would look almost like a toad if you twisted it to allow it walk on two legs. Its skin is gray and pockmarked, and its entire body shifts and bubbles in a nauseating way. This form is small except for a distended gut from which it vomits up globs of acid."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"The Slaad hail from the chaos plane of Limbo, and tend to resist any formal attempt to organize or force them into anything. Particularly clever or strong Slaad sometimes trick or intimidate other Slaad into a temporary semblance of order."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Chaos Slaad Barrier",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapeshifter"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 16,
+			"int": 11,
+			"wis": 15,
+			"cha": 9,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"save": {
+				"con": "+5",
+				"dex": "+3",
+				"str": "+4"
+			},
+			"vulnerable": [
+				"force"
+			],
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the chaos slaad barrier is bloodied (18), it must succeed on a {@dc 13} Wisdom saving throw or flee the combat."
+					]
+				},
+				{
+					"name": "Chaotic Nature",
+					"entries": [
+						"The chaos slaad's form is unstable, constantly shifting and bubbling. At the start of the chaos slaad's turn, roll a {@dice 1d3}. Depending on the result of the roll, the chaos slaad might change stat blocks. If it changes stat blocks, it retains its current hit point total and all conditions currently affecting it, but otherwise replaces all of its statistics with those of the new stat block. The possible stat blocks are:",
+						"1. Chaos Slaad Smasher",
+						"2. Chaos Slaad Hurler",
+						"3. Chaos Slaad Barrier"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The chaos slaad regains 3 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Acid Burst",
+					"entries": [
+						"Any creature that strikes the chaos slaad barrier with a melee attack takes 3 points of acid damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 bludgeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The creature would look almost like a toad if you twisted it to allow it walk on two legs. Its skin is gray and pockmarked, and its entire body shifts and bubbles in a nauseating way. This form is short, stout, and covered with pulsing acid nodules."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"It was said that Avandra needed Kord's help to build the Chaos Engine. Even though the Chaos Engine was the key to the survival of Skybridge, many wonder if it was truly worth it, since that collaboration is the reason we have a Slaad infestation today."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Slaad Anarch Polemic",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapeshifter"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "32, 32, 32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 15,
+			"con": 11,
+			"int": 14,
+			"wis": 13,
+			"cha": 16,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman Tier, Group Organization",
+				"xp": 250
+			},
+			"save": {
+				"dex": "+4",
+				"con": "+2",
+				"wis": "+3",
+				"cha": "+5"
+			},
+			"vulnerable": [
+				"force"
+			],
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The slaad anarch polemic and all creatures under its command never make morale checks while it is alive. When the slaad anarch polemic dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"The slaad anarch polemic rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Paragon Resilliency",
+					"entries": [
+						"The slaad anarch has three health totals, which deplete one at a time. When one health total is depleted, the slaad anarch gains a second wind, recovering from any status effect affecting it. When all health totals are depleted, the slaad anarch dies."
+					]
+				},
+				{
+					"name": "Chaotic Nature",
+					"entries": [
+						"The slaad anarch's form is unstable, constantly shifting and bubbling. At the start of the slaad anarch's turn, roll a {@dice 1d2} (or flip a coin). Depending on the result of the roll, the slaad anarch might change stat blocks. If it changes stat blocks, it retains its current hit point total and all conditions currently affecting it, but otherwise replaces all of its statistics with those of the new stat block. The possible stat blocks are:",
+						"1. Slaad Anarch Polemic",
+						"2. Slaad Anarch Exemplar"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The slaad anarch regains 3 hit points at the start of its turn if it has at least 1 hit point. This healing cannot restore a depleted hit point pool, only fill a partially depleted one."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"action": [
+				{
+					"name": "Rant",
+					"entries": [
+						"Cooldown 3. The slaad anarch polemic rants at a specific enemy. Until the cooldown on Rant refreshes, all of the slaad anarch polemic's allies gain advantage to attack the target of the rant, and if they hit, deal an additional 5 psychic damage."
+					]
+				},
+				{
+					"name": "Ray of Acid",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}10 bludgeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Betray Underling",
+					"entries": [
+						"As a reaction when the slaad anarch polemic would be the target of an attack, he may force the attack to target an adjacent ally instead."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (Polemic form)",
+										"entries": [
+											"This slaad's skin glistens a mottled green. It walks almost hunched over and carries a staff, as if elderly, and a keen intelligence shines in its eyes. The other slaad seem to defer to it, even if they don't realize they are doing so."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (Exemplar form)",
+										"entries": [
+											"The slaad's form bubbles and changes, its skill staying green, but its slump straightening out. Lean muscle bubbles up along its limbs, and its staff twists into a long glaive. The edge of sharp, malicious intelligence in its eyes is unchanged."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Slaad are fundamentally unmanageable creatures of chaos. They cannot be commanded or persuaded, and they are often contrary simply for the sake of it. But intelligent Slaad have realized that the best way to get a Slaad to do what you want to do is tell it to do the exact opposite."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Slaad Anarch Exemplar",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapeshifter"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "32, 32, 32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 11,
+			"int": 9,
+			"wis": 13,
+			"cha": 15,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman Tier, Group Organization",
+				"xp": 250
+			},
+			"save": {
+				"dex": "+5",
+				"con": "+2",
+				"wis": "+3",
+				"cha": "+4"
+			},
+			"vulnerable": [
+				"force"
+			],
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The slaad anarch and all creatures under its command never make morale checks while it is alive. When the slaad anarch dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"The slaad anarch polemic rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Paragon Resilliency",
+					"entries": [
+						"The slaad anarch has three health totals, which deplete one at a time. When one health total is depleted, the slaad anarch gains a second wind, recovering from any status effect affecting it. When all health totals are depleted, the slaad anarch dies."
+					]
+				},
+				{
+					"name": "Chaotic Nature",
+					"entries": [
+						"The slaad anarch's form is unstable, constantly shifting and bubbling. At the start of the slaad anarch's turn, roll a {@dice 1d2} (or flip a coin). Depending on the result of the roll, the slaad anarch might change stat blocks. If it changes stat blocks, it retains its current hit point total and all conditions currently affecting it, but otherwise replaces all of its statistics with those of the new stat block. The possible stat blocks are:",
+						"1. Slaad Anarch Polemic",
+						"2. Slaad Anarch Exemplar"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The slaad anarch regains 3 hit points at the start of its turn if it has at least 1 hit point. This healing cannot restore a depleted hit point pool, only fill a partially depleted one."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"S"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (Polemic form)",
+										"entries": [
+											"This slaad's skin glistens a mottled green. It walks almost hunched over and carries a staff, as if elderly, and a keen intelligence shines in its eyes. The other slaad seem to defer to it, even if they don't realize they are doing so."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (Exemplar form)",
+										"entries": [
+											"The slaad's form bubbles and changes, its skill staying green, but its slump straightening out. Lean muscle bubbles up along its limbs, and its staff twists into a long glaive. The edge of sharp, malicious intelligence in its eyes is unchanged."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Slaad are fundamentally unmanageable creatures of chaos. They cannot be commanded or persuaded, and they are often contrary simply for the sake of it. But intelligent Slaad have realized that the best way to get a Slaad to do what you want to do is tell it to do the exact opposite."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"action": [
+				{
+					"name": "Acid Launch",
+					"entries": [
+						"Cooldown 3. The slaad anarch exemplar expels a burst of acid in a 15 ft. cube centered on itself. All creatures in the cube must make a {@dc 14} Dexterity saving throw, taking 3 acid damage and losing their reaction on a failure.",
+						"The slaad anarch exemplar uses this burst to push itself into the air, jumping 15 ft. and landing in an unoccupied space.",
+						"The acid stays after the initial burst, forming a pool on the ground in the same area as the burst. Any creature that starts its turn in the pool or moves into it must make a {@dc 14} Constitution saving throw, taking 3 acid damage on a failure."
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 10 ft., one target. {@h}8 slashing damage."
+					]
+				},
+				{
+					"name": "Trip Strike",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 10 ft., one target. The target cannot be adjacent to the slaad anarch exemplar. {@h}7 bludgeoning damage and the target must make a {@dc 14} Strength saving throw. On a failure, the target is knocked {@condition prone}. If the target is {@condition prone}, the slaad anarch exemplar can make a Glaive attack against it as a bonus action."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Giant Turtle",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "60"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 15,
+			"dex": 9,
+			"con": 16,
+			"int": 3,
+			"wis": 14,
+			"cha": 13,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman Tier, Pair Organization",
+				"xp": 500
+			},
+			"save": {
+				"dex": "+1",
+				"con": "+5",
+				"wis": "+4",
+				"str": "+4"
+			},
+			"vulnerable": [
+				"necrotic"
+			],
+			"resist": [
+				"force"
+			],
+			"immune": [
+				"radiant"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the giant turtle is bloodied (30), it must succeed on a {@dc 16} Wisdom saving throw or retreat into its shell and take no more actions for the remainder of the combat."
+					]
+				},
+				{
+					"name": "Bulk",
+					"entries": [
+						"Large creatures have half cover when behind the giant turtle. Medium creatures have 3/4 cover when behind the giant turtle. Smaller creatures have full cover when behind the giant turtle."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}24 piercing damage."
+					]
+				},
+				{
+					"name": "Shell Retreat",
+					"entries": [
+						"The giant turtle retreats all of its limbs back into its shell and focuses on defense. While it is focusing on defense in this manner, its speed drops to 0 ft. and it gains 3/4 cover from all attacks. It can still make normal attacks and attacks of opportunity, but it cannot make shoves. The giant turtle may end its shell retreat with a bonus action."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"bonus": [
+				{
+					"name": "Shove",
+					"entries": [
+						"The giant turtle shoves a target with its shell. The target must make a {@dc 12} saving throw or fall {@condition prone}."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Nature DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"A turtle of truly titanic proportions. Oddly, at a glance it seems to be better suited for the water than the land, but it seems to plod along just fine. It's hooked beak looks strong enough to punch through steel."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"One of the more humiliating episodes in the Skybridge-Githyanki war saw Gith invaders simply sailing into central Skybridge on flying turtles, our defenses completely helpless against their armor. The invaders were eventually repelled, but several turtles escaped into the sewers to become eternal pests."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Fleshpecker",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "9"
+			},
+			"speed": {
+				"fly": 40,
+				"walk": 5
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 9,
+			"int": 3,
+			"wis": 15,
+			"cha": 14,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, gang organization",
+				"xp": 125
+			},
+			"vulnerable": [
+				"necrotic"
+			],
+			"immune": [
+				"radiant"
+			],
+			"resist": [
+				"force"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the fleshpecker is bloodied (4), it must succeed on a {@dc 16} Wisdom saving throw or flee the combat."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The fleshpecker doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"action": [
+				{
+					"name": "Peck",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}6 piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Nature DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"An evil-looking black bird with a pointed beak. You can't quite tell, but you think there might be bloodstains on its chest feathers."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Consistent pests brought to Skybridge from the Old World. Probably not on purpose. Usually, fleshpeckers are scavengers, but they aren't above creating a meal with their own beaks."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"save": {
+				"dex": "+5",
+				"wis": "+4",
+				"cha": "+4"
+			}
+		},
+		{
+			"name": "Giant Rat",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 15,
+			"int": 3,
+			"wis": 14,
+			"cha": 9,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, gang organization",
+				"xp": 125
+			},
+			"save": {
+				"str": "+2",
+				"dex": "+5",
+				"wis": "+4"
+			},
+			"vulnerable": [
+				"necrotic"
+			],
+			"resist": [
+				"force"
+			],
+			"immune": [
+				"radiant"
+			],
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The giant rat has advantage on an attack roll against a creature if at least one of the giant rat's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Morale",
+					"entries": [
+						"When the giant rat is bloodied (9), it must succeed on a {@dc 16} Wisdom saving throw or flee the combat."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}8 piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Nature DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"A rat that has grown to rival large dogs. Despite its size, it looks thin and desperate, eyeing you with unmistakable hunger."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"The failing Chaos Engine causes all manner of strange mutations in creatures unlucky enough to be exposed to it. This rat isn't one of them, though. Its ancestors stowed away on Skybridge, and all of them looked this ugly."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Elder Red Slaad Acidspitter",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapeshifter"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "60, 60, 60"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 15,
+			"int": 11,
+			"wis": 13,
+			"cha": 9,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"save": {
+				"dex": "+5",
+				"con": "+4",
+				"int": "+2"
+			},
+			"vulnerable": [
+				"force"
+			],
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The elder red slaad and all creatures under its command never make morale checks while it is alive. When the elder red slaad dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"The elder red slaad rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Paragon Resilliency",
+					"entries": [
+						"The elder red slaad has three health totals, which deplete one at a time. When one health total is depleted, the elder red slaad gains a second wind, recovering from any status effect affecting it. When all health totals are depleted, the elder red slaad dies."
+					]
+				},
+				{
+					"name": "Chaotic Nature",
+					"entries": [
+						"The elder red slaad's form is unstable, constantly shifting and bubbling. At the start of the elder red slaad's turn, roll a {@dice 1d2}. Depending on the result of the roll, the elder red slaad might change stat blocks. If it changes stat blocks, it retains its current hit point total and all conditions currently affecting it, but otherwise replaces all of its statistics with those of the new stat block. The possible stat blocks are:",
+						"1. Elder Red Slaad Acidspitter",
+						"2. Elder Red Slaad Ovipositor"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The elder red slaad regains 5 hit points at the start of its turn if it has at least 1 hit point. This healing cannot restore a depleted hit point pool, only fill a partially depleted one."
+					]
+				},
+				{
+					"name": "Acid Burst",
+					"entries": [
+						"Any creature that strikes the elder red slaad with a melee attack takes 5 points of acid damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"action": [
+				{
+					"name": "Acid Spit",
+					"entries": [
+						"{@atk rw} {@hit +5} to hit, range 60/120 ft., one target. {@h}9 acid damage and an acid glob sticks to the target. While the glob remains on the target, it takes 5 acid damage at the start of its turn and its AC is reduced by 2. The glob may be removed as an action, but it deals 5 acid damage to the object or creature that removes it."
+					]
+				}
+			],
+			"miscTags": [
+				"RW"
+			],
+			"damageTags": [
+				"A"
+			]
+		},
+		{
+			"name": "Elder Red Slaad Ovipositor",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapeshifter"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "60, 60, 60"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 15,
+			"int": 11,
+			"wis": 14,
+			"cha": 9,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"save": {
+				"dex": "+5",
+				"con": "+4",
+				"int": "+2"
+			},
+			"vulnerable": [
+				"force"
+			],
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The elder red slaad and all creatures under its command never make morale checks while it is alive. When the elder red slaad dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"The elder red slaad rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Paragon Resilliency",
+					"entries": [
+						"The elder red slaad has three health totals, which deplete one at a time. When one health total is depleted, the elder red slaad gains a second wind, recovering from any status effect affecting it. When all health totals are depleted, the elder red slaad dies."
+					]
+				},
+				{
+					"name": "Chaotic Nature",
+					"entries": [
+						"The elder red slaad's form is unstable, constantly shifting and bubbling. At the start of the elder red slaad's turn, roll a {@dice 1d2}. Depending on the result of the roll, the elder red slaad might change stat blocks. If it changes stat blocks, it retains its current hit point total and all conditions currently affecting it, but otherwise replaces all of its statistics with those of the new stat block. The possible stat blocks are:",
+						"1. Elder Red Slaad Acidspitter",
+						"2. Elder Red Slaad Ovipositor"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The elder red slaad regains 5 hit points at the start of its turn if it has at least 1 hit point. This healing cannot restore a depleted hit point pool, only fill a partially depleted one."
+					]
+				},
+				{
+					"name": "Leap",
+					"entries": [
+						"The elder red slaad may leap its full movement speed as a move action. When it does this, it does not provoke opportunity attacks from creatures that it passes over during its movement. It does, however, provoke opportunity attacks from creatures that were adjacent to it at the beginning of its leap."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"damageTags": [
+				"P"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The elder red slaad makes two attacks: one with its bite and one with its egg claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}12 piercing damage."
+					]
+				},
+				{
+					"name": "Egg Claw",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}8 piercing damage. The target must succeed on a {@dc 16} Constitution saving throw or be infected by a disease - a minuscule slaad egg. A target cannot be infected by the disease more than once.",
+						"A creature inflicted with the disease is {@condition poisoned} and its speed is halved. At the end of each of its turns, the creature may make a {@dc 16} Constitution saving throw, ending the slowing and poisoning on a success. The slowing and poisoning also end after 10 minutes if they have not already. This success does not cure the disease, merely suppresses its symptoms.",
+						"Creatures that are infected with a slaad egg but have suppressed the symptoms can tell that they are sick, but the disease does not impact their functioning. This feeling of sickness gradually gets worse over the course of 1 month. 1 month after being infected with the disease, the creature becomes {@condition poisoned} and slowed again. 1 week after the poisoning and slowing begin again, a slaad tadpole bursts out of the creature's chest, killing it instantly."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (Acidspitter form)",
+										"entries": [
+											"Mottled red covers this slaad's form, mirroring its furious expression. It is the largest slaad you have ever seen. Its arms and legs seem oddly spindly contrasted against its great barrel chest. Acidic saliva slowly drips from its mouth."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description (Ovipositor form)",
+										"entries": [
+											"The huge slaad's form ripples and twists, muscle moving away from the torso and into the arms and legs. It grins at you through a new mouth of razor teeth and brandishes a single, long, vicious claw. A sinister, highly-viscous liquid drips off the tip."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"All slaad are creatures of chaos, but as they age, they tend to specialize in specific forms of mayhem. These forms of elder slaad can often be distinguished by color. Red elders focus on bringing new slaad (and thus more chaos) into the world."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Rat King (Phase 1)",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"adamantine armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "53"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 15,
+			"con": 11,
+			"int": 9,
+			"wis": 14,
+			"cha": 13,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"save": {
+				"dex": "+4",
+				"con": "+2",
+				"wis": "+4",
+				"str": "+5"
+			},
+			"skill": {
+				"athletics": "+5"
+			},
+			"vulnerable": [
+				"necrotic"
+			],
+			"resist": [
+				"force"
+			],
+			"immune": [
+				"radiant"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The rat king and all creatures under its command never make morale checks while it is alive. When the rat king dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Transformation",
+					"entries": [
+						"When the rat king reaches 0 hp, instead of dying, it transforms into Rat King (Phase 2). In so doing, it gains all of the statistics of the second phase, including its full hp total, and recovers from any status affects afflicting it."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"The Rat King rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Tackle",
+					"entries": [
+						"If the rat king moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be {@condition grappled}. If the target is {@condition grappled}, the rat king can make one gnaw attack against it as a bonus action."
+					]
+				}
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}12 piercing damage."
+					]
+				},
+				{
+					"name": "Gnaw",
+					"entries": [
+						"Deal 18 piercing damage to a {@condition grappled} target."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"bonus": [
+				{
+					"name": "Spring",
+					"entries": [
+						"If the rat king has a target {@condition grappled}, he may spring off the target 10 ft. in any direction he chooses. This movement does not provoke attacks of opportunity."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rat King (Phase 2)",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"adamantine armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "53"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 15,
+			"con": 11,
+			"int": 9,
+			"wis": 14,
+			"cha": 13,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"save": {
+				"dex": "+4",
+				"con": "+2",
+				"wis": "+4",
+				"str": "+5"
+			},
+			"skill": {
+				"athletics": "+5"
+			},
+			"vulnerable": [
+				"necrotic"
+			],
+			"resist": [
+				"force"
+			],
+			"immune": [
+				"radiant"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Cowardice",
+					"entries": [
+						"When the rat king is bloodied (26), it and all creatures under its command break morale immediately and attempt to flee the combat."
+					]
+				},
+				{
+					"name": "Tackle",
+					"entries": [
+						"If the rat king moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be {@condition grappled}. If the target is {@condition grappled}, the rat king can make one gnaw attack against it as a bonus action."
+					]
+				},
+				{
+					"name": "Desperate Rush",
+					"entries": [
+						"If the rat king moves at least 20 ft. in a straight line, creatures in the line are shoved 5 ft. out of the way and must make a {@dc 14} Strength saving throw or lose their reaction for the round."
+					]
+				}
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}12 piercing damage."
+					]
+				},
+				{
+					"name": "Gnaw",
+					"entries": [
+						"Deal 18 piercing damage to a {@condition grappled} target."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"bonus": [
+				{
+					"name": "Spring",
+					"entries": [
+						"If the rat king has a target {@condition grappled}, he may spring off the target 10 ft. in any direction he chooses. This movement does not provoke attacks of opportunity."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Nature DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"This rat has been twisted by arcane energies into a somewhat humanoid shape. As a marker of its authority, the Rat King jammed its twisted form into an ill-fitting suit of gleaming silver armor."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"In these fallen days, Chaos energy permeates Skybridge. Those creatures that spend too long within its influence find themselves changed. Often the change is bad for the creature, but sometimes it is dubiously blessed by increased strength, speed, or senses."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Elder Turtle Foot",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "41"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 15,
+			"dex": 9,
+			"con": 16,
+			"int": 3,
+			"wis": 13,
+			"cha": 14,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"save": {
+				"con": "+5",
+				"str": "+4"
+			},
+			"vulnerable": [
+				"necrotic"
+			],
+			"resist": [
+				"force"
+			],
+			"immune": [
+				"radiant"
+			],
+			"trait": [
+				{
+					"name": "Part of the Whole",
+					"entries": [
+						"The elder turtle foot is only a small part of a greater monster. As a result, the elder turtle foot has advantage when saving against all effects that require an Intelligence, Wisdom, or Charisma saving throw, but those effects affect every part of the greater monster. Successfully dominating one body part dominates all body parts, for instance."
+					]
+				},
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The elder turtle foot and all creatures under its command never make morale checks while it is alive. When MON dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Biological Restrictions",
+					"entries": [
+						"The elder turtle's feet may never \"cross over\" one another. For example, the right forefoot may never go further left than the left forefoot, or behind either rear foot."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Stomp",
+					"entries": [
+						"The elder turtle places its foot down forcefully. All creatures sharing a space with the elder turtle foot or adjacent to the foot must make a {@dc 12} Dexterity saving throw, taking 13 bludgeoning damage and falling {@condition prone} on a failure, or taking half as much damage on a success.",
+						"Creatures under the foot that succeeded on their save are pushed to the nearest unoccupied space. Creatures under the foot that failed their save are {@condition restrained}. A creature {@condition restrained} in this way can use its action to make a Strength check against {@dc 12}. If it succeeds, it is no longer {@condition restrained} and is pushed to the nearest unoccupied space.",
+						"If the elder turtle foot moves or uses any action other than Squish, any creatures currently {@condition restrained} by it are freed."
+					]
+				},
+				{
+					"name": "Squish",
+					"entries": [
+						"Requires a {@condition restrained} creature. Deals 13 bludgeoning damage to the {@condition restrained} creature."
+					]
+				},
+				{
+					"name": "Kick",
+					"entries": [
+						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}10 bludgeoning damage. The target must make a {@dc 12} Strength saving throw or be thrown up to 15 ft and fall {@condition prone} on a square of the elder turtle's choosing."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Nature DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"Streams of dust fall down into the square as the elder turtle moves muscles that it hasn't stretched since the days of your ancestors. An enormous head swings down to stare at you with nothing more than mild annoyance."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"The Old General was the largest of the turtles brought by the Githyanki, and the only one that can still truly fly in this day and age. Skybridge's knights drove it off several times, but it never failed to return. Even if its return took decades, Skybridge always had too much good food to pass up."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Githyanki Raider",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gith"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"leather armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 16,
+			"con": 13,
+			"int": 14,
+			"wis": 15,
+			"cha": 11,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"save": {
+				"dex": "+5",
+				"wis": "+4",
+				"int": "+4"
+			},
+			"vulnerable": [
+				"poison"
+			],
+			"resist": [
+				"thunder"
+			],
+			"immune": [
+				"lightning"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The githyanki raider makes 2 shock blade attacks. If both attacks hit the same target, that target loses its reaction for the turn."
+					]
+				},
+				{
+					"name": "Shock Blade",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}6 slashing damage and 2 lightning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"L",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"bonus": [
+				{
+					"name": "Planar Journey",
+					"entries": [
+						"The githyanki teleports up to 10 ft. to an unoccupied space."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the githyanki raider is bloodied (16), it must succeed on a {@dc 13} Wisdom saving throw or flee the combat."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"History DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"If you could judge githyanki by human standards, this gith would look young. They also look vicious and bloodthirsty. The gith's armor, while neat and clearly well taken care of, is just as clearly lower quality than that of other gith soldiers."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"During the period of alliance, Setrar was asked by a Bridger why her culture allowed their youth to take the furthest-forward, most dangerous positions in battle. According to rumor, Setrar responded, \"Allow? We require it. How else are they to earn glory?\""
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Githyanki Knight",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gith"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"breastplate"
+					]
+				}
+			],
+			"hp": {
+				"special": "36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 11,
+			"con": 14,
+			"int": 16,
+			"wis": 13,
+			"cha": 9,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"save": {
+				"dex": "+2",
+				"con": "+4",
+				"wis": "+3",
+				"int": "+5"
+			},
+			"vulnerable": [
+				"poison"
+			],
+			"resist": [
+				"thunder"
+			],
+			"immune": [
+				"lightning"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the githyanki knight is bloodied (18), it must succeed on a {@dc 13} Wisdom saving throw or break morale. When a majority of the githyanki knight's allies have broken morale, they all attempt to retreat together."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Planar Journey",
+					"entries": [
+						"The githyanki teleports up to 10 ft. to an unoccupied space."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Silver Lightning Blade",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 slashing damage and 3 lightning damage. The target must make a {@dc 14} Constitution saving throw or be {@condition stunned} until the beginning of the githyanki knight's next turn."
+					]
+				}
+			],
+			"damageTags": [
+				"L",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"History DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"This warrior wears plates of solid metal, but their yellow skin clearly visible through the armor plates clearly marks them as gith. They and their allies seem to work together without needing to speak, forming up and raising their crackling blades."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Setrar spared no expense in outfitting even her common foot soldiers. Reportedly, this caused her generals to grumble until her strategies started winning victories for the clan. Those strategies also won her the fanatical loyalties of the lower ranks."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Diras, Githyanki Thief Knight",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gith"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"breastplate"
+					]
+				}
+			],
+			"hp": {
+				"special": "36, 36, 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 25,
+			"dex": 11,
+			"con": 14,
+			"int": 16,
+			"wis": 13,
+			"cha": 9,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 750
+			},
+			"save": {
+				"dex": "+2",
+				"con": "+4",
+				"wis": "+3",
+				"int": "+5"
+			},
+			"vulnerable": [
+				"poison"
+			],
+			"resist": [
+				"thunder"
+			],
+			"immune": [
+				"lightning"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Diras and all creatures under its command never make morale checks while it is alive. When Diras dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"Diras rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Paragon Resilliency",
+					"entries": [
+						"Diras has three health totals, which deplete one at a time. When one health total is depleted, Diras gains a second wind, recovering from any status effect affecting it. When all health totals are depleted, Diras dies."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Planar Journey",
+					"entries": [
+						"The githyanki teleports up to 10 ft. to an unoccupied space."
+					]
+				},
+				{
+					"name": "Spatial Hook",
+					"entries": [
+						"One creature within 30 ft. must make a {@dc 14} Constitution saving throw or be teleported to the nearest space adjacent to Diras. A target teleported this way has disadvantage on saving throws to resist Diras' abilities and Diras has advantage on attacks against them until the end of Diras' current turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sword of Life Stealing",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}15 slashing damage and Diras heals 5 hp. This healing cannot restore a health pool that is already at 0."
+					]
+				},
+				{
+					"name": "Lifewell",
+					"entries": [
+						"Only available when Diras has only one health pool remaining. All creatures adjacent to Diras must make a {@dc 14} Constitution saving throw, taking 8 necrotic damage on a failure. Diras heals 3 hp for each creature that failed. This healing cannot restore a health pool that is already at 0."
+					]
+				}
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"History DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The Githyanki knight steps forward, raising a black longsword that seems to crackle with black energy. Rubies stud his armor around the shoulders and chest. He smirks smirks casually before his sword moves in a blur to attack."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Among the Setrari Githyanki, armor adornments are used to indicate rank and status. Byzantine rituals dictate exactly where a Gith is allowed to adorn their armor and with what stones. Rubies in particular indicate blood shed in battle."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Lynoth, Githyanki Gish",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gith"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "32, 32, 32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 13,
+			"int": 16,
+			"wis": 15,
+			"cha": 11,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 750
+			},
+			"save": {
+				"int": "+5",
+				"wis": "+4",
+				"dex": "+4"
+			},
+			"vulnerable": [
+				"poison"
+			],
+			"resist": [
+				"thunder"
+			],
+			"immune": [
+				"lightning"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"Lythoth and all creatures under its command never make morale checks while it is alive. When Lynoth dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"Lynoth rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Paragon Resilliency",
+					"entries": [
+						"Lynoth has three health totals, which deplete one at a time. When one health total is depleted, Lynoth gains a second wind, recovering from any status effect affecting it. When all health totals are depleted, Lynoth dies."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Planar Journey",
+					"entries": [
+						"The githyanki teleports up to 10 ft. to an unoccupied space."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Lightning Bolt",
+					"entries": [
+						"Lynoth produces a lightning bolt in a 30 ft. line. All creatures within the lightning bolt must make a {@dc 16} Dexterity saving throw, taking 16 lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Dimensional Sanctuary",
+					"entries": [
+						"Lynoth brings himself out of phase with reality, provoking an attack of opportunity while doing so. While out of phase in this way, he can neither affect normal reality, not be affected by anything in it. He is utterly undetectable from normal reality. He can still move and take actions that affect only himself.",
+						"If Lynoth ends his turn in the sanctuary, he restores 3 hp. This healing cannot restore a health pool that is already at 0.",
+						"Lynoth can end his sanctuary with a bonus action."
+					]
+				},
+				{
+					"name": "Banishment",
+					"entries": [
+						"Only available after Lynoth has lost at least 1 health pool. A creature that Lynoth touches must make a {@dc 16} Wisdom saving throw or be put out of phase with reality. This state is identical to Dimensional Sanctuary, except that it does not heal the target. The target may repeat the Wisdom save at the end of each of its turns, returning to normal reality on a success."
+					]
+				}
+			],
+			"damageTags": [
+				"L"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"History DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"A male Githyanki with severe, understated robes strides in the center of a formation of other Gith, clearly its focus. His stoic frown is accented by the large red ruby he wears on his forehead. Barely restrained lightning crackles around his fingers."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"The Setrari Githyanki, unlike other bands, do not focus on the mental arts in their magics. Instead, they have developed a style of spatial arts and lightning magic that is notoriously difficult to counter. A Setrari mage can be anywhere you do not want them to be."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Githyanki Gish",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gith"
+				]
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "45"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 14,
+			"int": 17,
+			"wis": 16,
+			"cha": 12,
+			"passive": 13,
+			"cr": {
+				"cr": "Adventurer tier, group organization",
+				"xp": 750
+			},
+			"save": {
+				"int": "+6",
+				"wis": "+6",
+				"dex": "+5"
+			},
+			"vulnerable": [
+				"poison"
+			],
+			"resist": [
+				"thunder"
+			],
+			"immune": [
+				"lightning"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the githyanki gish is bloodied (22), it must succeed on a {@dc 14} Wisdom saving throw or flee the combat."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Lightning Bolt",
+					"entries": [
+						"The githyanki gish produces a lightning bolt in a 40 ft. line. All creatures within the lightning bolt must make a {@dc 17} Dexterity saving throw, taking 20 lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Dimensional Sanctuary",
+					"entries": [
+						"The githyanki gish brings themself out of phase with reality, provoking an attack of opportunity while doing so. While out of phase in this way, they can neither affect normal reality, not be affected by anything in it. They are utterly undetectable from normal reality. They can still move and take actions that affect only themself.",
+						"If the githyanki gish ends their turn in the sanctuary, they restore 5 hp.",
+						"The githyanki gish can end their sanctuary with a bonus action."
+					]
+				}
+			],
+			"damageTags": [
+				"L"
+			],
+			"bonus": [
+				{
+					"name": "Planar Journey",
+					"entries": [
+						"The githyanki teleports up to 10 ft. to an unoccupied space."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"History DC 16"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"Rather than armor, this Githyanki wears a black robe, offset by earth toned under-robes. Their clothing is not ornate, but it sewn in several places with shining clear crystals. A large red ruby graces their brow, and their hands and eyes crackle with lightning."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Each unit in the Githyanki military often has an entirely separate chain of command, which can lead to large differences, even within the same band. Setrari gish, for instance, are lead by an Overcaptain with an infamous disdain for military maneuvers and fondness of magical research."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Slaad Shaman",
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "98"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 16,
+			"int": 15,
+			"wis": 18,
+			"cha": 17,
+			"passive": 14,
+			"cr": {
+				"cr": "Veteran tier, pair organization",
+				"xp": 2400
+			},
+			"save": {
+				"wis": "+8",
+				"cha": "+7"
+			},
+			"vulnerable": [
+				"force"
+			],
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the slaad shaman is bloodied (49), it must succeed on a {@dc 15} Wisdom saving throw or flee the combat."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The slaad shaman regains 8 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"action": [
+				{
+					"name": "The Mind Killer",
+					"entries": [
+						"Cooldown 3. The slaad shaman focuses on one target, which must make a {@dc 16} Wisdom saving throw, taking 52 psychic damage and becoming {@condition frightened} of the slaad shaman on a failed save, or taking half as much damage on a successful one. Frightened creatures may repeat the save at the end of each of their turns, ending the effect on themselves on a success."
+					]
+				},
+				{
+					"name": "Acidic Storm",
+					"entries": [
+						"Cooldown 3. The slaad shaman throws a mote of magic up to 30 ft. away, which explodes into a 20 ft. radius sphere of powerful acid. Each creature in the sphere must make a {@dc 16} Dexterity saving throw, taking 32 acid damage on a failure, and half as much damage on a success."
+					]
+				},
+				{
+					"name": "Chaotic Restoration",
+					"entries": [
+						"The slaad shaman touches themselves or an ally to restore 8 hp.",
+						"The slaad shaman can use this ability on an ally that has died since the end of the shaman's last turn, restoring it from 0 to 8 hp."
+					]
+				}
+			],
+			"damageTags": [
+				"A",
+				"Y"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Arcana DC 17"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"This slaad's skin is a sickly green, and in contrast to most other slaad you have seen, does not bubble constantly. It is almost stonelike in texture, and the slaad moves with the painful difficulty of an arthritic. Still, you are wary of the dangerous glint in its eyes."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"As slaad age, they calcify. The chaos that gives them life slowly ebbs until they turn to stone. Particularly intelligent and magically gifted slaad are able to delay this process, and can often live several times the lifespans of their less gifted cousins."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Skull Swarm",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "undead",
+				"swarmSize": "T"
+			},
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"special": "60"
+			},
+			"speed": {
+				"walk": 15
+			},
+			"str": 15,
+			"dex": 9,
+			"con": 16,
+			"int": 11,
+			"wis": 14,
+			"cha": 12,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"save": {
+				"con": "+5",
+				"str": "+4"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny skull. The swarm can't regain hit points or gain temporary hit points. The swarm has disadvantage on saving throws against effects that affect an area and advantage on saving throws against effects that affect a single creature."
+					]
+				},
+				{
+					"name": "Morale",
+					"entries": [
+						"When the skull swarm is bloodied (30), it must succeed on a {@dc 13} Wisdom saving throw or stop moving and pretend to be a pile of inanimate bones."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 0 ft., one target in one of the swarm's spaces. {@h}8 piercing damage. {@m}4 piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Choking Dust",
+					"entries": [
+						"If the skull swarm fails its saving throw against a damaging area attack, several of the damaged skulls may explode violently, spreading choking dust over its own spaces and all spaces adjacent to it. All creatures in those spaces that need to breathe must make a {@dc 16} Constitution saving throw, taking 15 points of poison damage on a failure and 7 points on a success."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"Your attention drifts to the skulls on the walls, and are chilled to discover that they are all pointed in your direction. A forest of eye pinpricks light up in the dark, and the skulls lunge at you, chattering in a foul imitation of laughter."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"When Necromantic Devourers began settling in Skybridge's Ossuary, the solution recommended by many was to begin burying skulls instead of entire corpses. Surely, the reasoning went, the demons will be less dangerous without full bodies to animate."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Giant Centipede",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "18"
+			},
+			"speed": {
+				"walk": 15,
+				"burrow": 15
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 12,
+			"int": 3,
+			"wis": 15,
+			"cha": 14,
+			"passive": 12,
+			"cr": {
+				"cr": "Journeyman tier, gang organization",
+				"xp": 125
+			},
+			"senses": [
+				"tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"save": {
+				"dex": "+5",
+				"con": "+3",
+				"wis": "+4",
+				"cha": "+4"
+			},
+			"vulnerable": [
+				"necrotic"
+			],
+			"resist": [
+				"force"
+			],
+			"immune": [
+				"radiant"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}8 piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Nature DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"A slight tremor is all the warning you get as centipedes the size of large dogs erupt out of every wall, chattering jaws tearing at armor and flesh."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"These creatures were brought onto Skybridge from the old world with the idea that they would become some sort of food source. Mostly, they became dangerous and difficult pests, but centipede meat did become something of a delicacy to Bridgers."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the giant centipede is bloodied (9), it must succeed on a {@dc 13} Wisdom saving throw or flee the combat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeletal Amalgam (Phase 1)",
+			"size": [
+				"L"
+			],
+			"type": "undead",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "53"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 11,
+			"int": 14,
+			"wis": 12,
+			"cha": 9,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The skeletal amalgam and all creatures under its command never make morale checks while it is alive. When the skeletal amalgam dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The skeletal amalgam can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Paragon Transformation",
+					"entries": [
+						"When the skeletal amalgam reaches 0 hp, instead of dying, it splits into two Skeletal Amalgams (Phase 2). Both new monsters gain all of the statistics of the second phase, including its full hp total, and do not inherit any status effects from the first amalgam."
+					]
+				},
+				{
+					"name": "Unpredictable Movements",
+					"entries": [
+						"The skeletal amalgam can take the {@action Disengage} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"traitTags": [
+				"Spider Climb"
+			],
+			"save": {
+				"dex": "+5",
+				"wis": "+3",
+				"str": "+4"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"necrotic"
+			],
+			"action": [
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}24 piercing damage."
+					]
+				},
+				{
+					"name": "Ceiling Drop",
+					"entries": [
+						"When the skeletal amalgam is climbing on the ceiling of a room, it may detach from the ceiling and slam into any creatures below. Creatures that would be inside the skeletal amalgam's space are shoved to the nearest unoccupied space. All creatures adjacent to the skeletal amalgam after its drop, including shoved creatures, must make a {@dc 16} Strength saving throw or fall {@condition prone}. If any creatures are knocked {@condition prone} in this way, the skeletal amalgam may make a Bites attack against them as a bonus action."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Skeletal Amalgam (Phase 2)",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "27"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 11,
+			"int": 14,
+			"wis": 12,
+			"cha": 9,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The skeletal amalgam and all creatures under its command never make morale checks while it is alive. When the skeletal amalgam dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The skeletal amalgam can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Unpredictable Movements",
+					"entries": [
+						"The skeletal amalgam can take the {@action Disengage} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"traitTags": [
+				"Spider Climb"
+			],
+			"save": {
+				"dex": "+3",
+				"wis": "+1",
+				"str": "+2"
+			},
+			"vulnerable": [
+				"radiant"
+			],
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"necrotic"
+			],
+			"action": [
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}24 piercing damage."
+					]
+				},
+				{
+					"name": "Ceiling Drop",
+					"entries": [
+						"When the skeletal amalgam is climbing on the ceiling of a room, it may detach from the ceiling and slam into any creatures below. Creatures that would be inside the skeletal amalgam's space are shoved to the nearest unoccupied space. All creatures adjacent to the skeletal amalgam after its drop, including shoved creatures, must make a {@dc 16} Strength saving throw or fall {@condition prone}. If any creatures are knocked {@condition prone} in this way, the skeletal amalgam may make a Bites attack against them as a bonus action."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"With a grim sense of foreboding, your gaze drifts to the ceiling. Your eyes lock with the flickering lights of an undead skull. One of dozens studding the body of the undead abomination like armor. Dozens of skeletal arms reach and clutch the stone. Dozens of skeletal ribcages flex in an imitation of breath. All of the creature's skulls grin in unison. Then it drops from the ceiling towards you."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Gluttons will often toss the parts of a corpse they aren't interested in eating into a single pile, like some demented imitation of hygiene. Occasionally, a Necromantic Devourer comes across these charnel piles. The results should not be spoken of lightly."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Imp",
+			"size": [
+				"S"
+			],
+			"type": "fiend",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"special": "16"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 9,
+			"dex": 15,
+			"con": 11,
+			"int": 16,
+			"wis": 12,
+			"cha": 14,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"save": {
+				"dex": "+4",
+				"con": "+2",
+				"wis": "+3",
+				"int": "+5"
+			},
+			"vulnerable": [
+				"cold"
+			],
+			"resist": [
+				"lightning"
+			],
+			"immune": [
+				"fire"
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The imp has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Morale",
+					"entries": [
+						"When the imp is bloodied (16), it must succeed on a {@dc 13} Wisdom saving throw or flee the combat."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Hellflame",
+					"entries": [
+						"{@atk rs} {@hit +5} to hit, range 80/160 ft., one target. {@h}13 fire damage, and the target must succeed on a {@dc 14} Wisdom saving throw or be {@condition stunned} until the beginning of the imp's next turn by visions of suffering."
+					]
+				}
+			],
+			"damageTags": [
+				"F"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"A tiny, bony fiend with a malicious smirk. Its horns and wings give size and intimidation to its emaciated body. Cursed fire flickers in its eyes and hands."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Since the summoning and subsequent sealing of the Broken Horror, Skybridge has experienced a relatively constant \"demon leakage\" problem. Most of the time, the leaked demons are imps. Occasionally, they are far worse creatures."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Barbed Devil",
+			"size": [
+				"M"
+			],
+			"type": "fiend",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"special": "60"
+			},
+			"speed": {
+				"walk": 45
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 11,
+			"int": 15,
+			"wis": 12,
+			"cha": 9,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman tier, pair organization",
+				"xp": 500
+			},
+			"save": {
+				"dex": "+5",
+				"wis": "+3",
+				"int": "+4"
+			},
+			"vulnerable": [
+				"cold"
+			],
+			"resist": [
+				"lightning"
+			],
+			"immune": [
+				"fire"
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The barbed devil has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Barbs",
+					"entries": [
+						"Any creature that strikes the barbed devil with a melee attack takes 5 points of piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Hook",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}10 piercing damage and the target must make a {@dc 16} Strength saving throw or become {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the barbed devil can't hook another target."
+					]
+				},
+				{
+					"name": "Tear",
+					"entries": [
+						"Requires a {@condition grappled} target. The {@condition grappled} target takes 18 piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The creature steps out of the shadows, revealing itself to be a thin humanoid, oddly proportioned with short but powerful legs and too-long arms. Everything about it is sharp, from the spines covering its skin to its malicious glare."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Barbed devils were often summoned by the ambitious to act as guards and assassins. The creatures' tenacity and viciousness were highly prized. Unfortunately for their prospective masters, the devils were more then willing to turn those traits to their own ends."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Necromantic Devourer",
+			"size": [
+				"T"
+			],
+			"type": "fiend",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"special": "32, 32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 15,
+			"con": 11,
+			"int": 16,
+			"wis": 12,
+			"cha": 14,
+			"passive": 11,
+			"cr": {
+				"cr": "Journeyman tier, group organization",
+				"xp": 250
+			},
+			"save": {
+				"dex": "+4",
+				"con": "+2",
+				"wis": "+3",
+				"int": "+5"
+			},
+			"vulnerable": [
+				"cold"
+			],
+			"resist": [
+				"lightning"
+			],
+			"immune": [
+				"fire"
+			],
+			"trait": [
+				{
+					"name": "Pillar of Will",
+					"entries": [
+						"The necromantic devourer and all creatures under its command never make morale checks while it is alive. When the necromantic devourer dies, all creatures under its command immediately make a morale check."
+					]
+				},
+				{
+					"name": "Paragon Fury",
+					"entries": [
+						"While the necromantic devourer still has its first health bar, it rolls initiative again and gains a second turn in the initiative order. Its reaction refreshes and its cooldowns tick down at the beginning of each turn.",
+						"When the necromantic devourer's first health bar is depleted, it loses one of its turns at random, and thereafter only takes a single initiative turn as normal."
+					]
+				},
+				{
+					"name": "Paragon Resilliency",
+					"entries": [
+						"The necromantic devourer has two health totals, which deplete one at a time. When one health total is depleted, the necromantic devourer gains a second wind, recovering from any status effect affecting it. When all health totals are depleted, the necromantic devourer dies."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The necromantic devourer has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"bonus": [
+				{
+					"name": "Command Undead",
+					"entries": [
+						"An allied undead creature within 90 ft. is granted an action which it must use immediately, on the necromantic devourer's turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}9 piercing damage, and the necromantic devourer clings to the target. The target may detach the necromantic devourer with a {@dc 14} Strength check.",
+						"While the necromantic devourer is clinging to a target, it cannot move away from the target, and it moves with the target as it moves. It gains advantage to bite a target that it is clinging to, and three-quarters cover against attacks from all other creatures than the one it is clinging to."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"Religion DC 15"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"At first glance, the creature is almost cute, like a squirrel without the tail. A second glance reveals that that is not a nut the creature is crunching on, but a human femur. Its gaze burns with a cold, magical intensity. The creature chitters mockingly at you as it vanishes into the shadows."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Necromantic devourers are not often summoned. They are widely considered impossible to control because of their ability to create minions for themselves out of any dead creature. How this one got to Skybridge is a mystery, but it seems to have done quite well here."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Alhoon",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"source": "KurtisHuff;CorridorsoftheArk",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "98"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 11,
+			"int": 18,
+			"wis": 17,
+			"cha": 16,
+			"passive": 13,
+			"cr": {
+				"cr": "Veteran tier, pair organization",
+				"xp": 2400
+			},
+			"save": {
+				"wis": "+7",
+				"dex": "+6",
+				"int": "+8"
+			},
+			"vulnerable": [
+				"acid",
+				"radiant"
+			],
+			"immune": [
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"trait": [
+				{
+					"name": "Morale",
+					"entries": [
+						"When the Alhoon is bloodied (49), it must succeed on a {@dc 15} Wisdom saving throw or break morale. When a majority of the Alhoon's allies have broken morale, they all attempt to retreat together."
+					]
+				},
+				{
+					"name": "Suffering Link",
+					"entries": [
+						"Whenever the Alhoon takes damage, any creatures {@condition stunned} by this Alhoon's Mind Blast must make a {@dc 18} Wisdom saving throw or take half the damage as psychic damage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Alhoon has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mind Blast",
+					"entries": [
+						"Cooldown 3. All creatures of the Alhoon's choice within 15 ft. must make a {@dc 18} Wisdom saving throw, taking 30 psychic damage and becoming {@condition stunned} for 1 minute on a failure and taking 15 psychic damage on a success.",
+						"A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Alhoon makes two Vampyric Bolt attacks."
+					]
+				},
+				{
+					"name": "Vampyric Bolt",
+					"entries": [
+						"{@atk rs} {@hit +9} to hit, range 80/160 ft., one target. {@h}17 necrotic damage. If the target is {@condition stunned} by this Alhoon's Mind Blast, the Alhoon restores 6 hp."
+					]
+				}
+			],
+			"damageTags": [
+				"N",
+				"Y"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"reaction": [
+				{
+					"name": "Counterspell",
+					"entries": [
+						"Cooldown 3. As the spell {@spell counterspell} at 5th level."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Stat Block DC",
+										"entries": [
+											"History DC 17"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Description",
+										"entries": [
+											"The mind flayer before you would look like any other of its kind if not for its abnormally pale skin, which looks dried and cracked. Then it raises a hand to prepare a spell, and you can see places where its flesh has sloughed off to expose bone. This mind flayer was never alive in the first place."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Lore",
+										"entries": [
+											"Alhoon are Illithids that pursue a modified form of lichdom to attain immortality. Shunned even by most other Illithid colonies, Lord Qhen provides a refuge for these misfits. In return, they serve him loyally, acting as his most dangerous enforcers and consuming those that challenge him."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"traitTags": [
+				"Magic Resistance"
+			]
+		}
+	]
+}
